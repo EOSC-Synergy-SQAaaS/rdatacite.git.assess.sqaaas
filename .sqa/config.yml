@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-smalt-squid.sh
-        container: qc.acc_slaphappy-razzmatazz-deer
+        - /usr/bin/env sh .sqa/script.sloppy-beige-uakari.sh
+        container: qc.acc_grumpy-cardinal-mole
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-yellow-zonkey.sh
-        container: qc.doc_gloppy-green-lemur
+        - /usr/bin/env sh .sqa/script.woozy-white-toucan.sh
+        container: qc.doc_trippy-ivory-molly
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-olivine-guppy.sh
-        container: qc.doc_gloppy-bistre-zonkey
+        - /usr/bin/env sh .sqa/script.craggy-seashell-tapir.sh
+        container: qc.doc_shaggy-smalt-capuchin
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-amber-uguisu.sh
-        container: qc.lic_stuffy-blue-rhinoceros
+        - /usr/bin/env sh .sqa/script.snappy-bistre-sponge.sh
+        container: qc.lic_gummy-crimson-dingo
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-sepia-magpie.sh
-        container: qc.met_slaphappy-indigo-civet
+        - /usr/bin/env sh .sqa/script.snippy-teal-bongo.sh
+        container: qc.met_stinky-brass-ray
 timeout: 600
