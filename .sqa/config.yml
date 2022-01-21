@@ -1,0 +1,44 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: staging
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/ropensci/rdatacite:
+      repo: https://github.com/ropensci/rdatacite.git
+environment:
+  JPL_KEEPGOING: true
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/ropensci/rdatacite:
+        commands:
+        - /usr/bin/env sh .sqa/script.thirsty-amethyst-mammoth.sh
+        container: qc.acc_queasy-violet-terrier
+  QC.Doc:
+    repos:
+      github.com/ropensci/rdatacite:
+        commands:
+        - /usr/bin/env sh .sqa/script.baggy-carmine-sheep.sh
+        container: qc.doc_snippy-ecru-impala
+      github.com/ropensci/rdatacite__2:
+        commands:
+        - /usr/bin/env sh .sqa/script.squirrely-cerulean-raccoon.sh
+        container: qc.doc_greasy-plum-dhole
+  QC.Lic:
+    repos:
+      github.com/ropensci/rdatacite:
+        commands:
+        - /usr/bin/env sh .sqa/script.snazzy-linen-wombat.sh
+        container: qc.lic_tacky-charcoal-gar
+  QC.Met:
+    repos:
+      github.com/ropensci/rdatacite:
+        commands:
+        - /usr/bin/env sh .sqa/script.ugly-brown-coyote.sh
+        container: qc.met_snoopy-crimson-serval
+      github.com/ropensci/rdatacite__2:
+        commands:
+        - /usr/bin/env sh .sqa/script.seedy-corn-cat.sh
+        container: qc.met_shaky-copper-shark
+timeout: 600
