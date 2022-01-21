@@ -13,32 +13,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-amethyst-mammoth.sh
-        container: qc.acc_queasy-violet-terrier
+        - /usr/bin/env sh .sqa/script.gimpy-denim-caterpillar.sh
+        container: qc.acc_sleazy-heliotrope-chamois
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-carmine-sheep.sh
-        container: qc.doc_snippy-ecru-impala
+        - /usr/bin/env sh .sqa/script.snappy-ruby-harrier.sh
+        container: qc.doc_hasty-lilac-cow
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-cerulean-raccoon.sh
-        container: qc.doc_greasy-plum-dhole
+        - /usr/bin/env sh .sqa/script.lanky-flax-camel.sh
+        container: qc.doc_homey-razzmatazz-octopus
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-linen-wombat.sh
-        container: qc.lic_tacky-charcoal-gar
+        - /usr/bin/env sh .sqa/script.squirrely-olive-avocet.sh
+        container: qc.lic_droopy-brown-kiwi
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-brown-coyote.sh
-        container: qc.met_snoopy-crimson-serval
-      github.com/ropensci/rdatacite__2:
-        commands:
-        - /usr/bin/env sh .sqa/script.seedy-corn-cat.sh
-        container: qc.met_shaky-copper-shark
+        - /usr/bin/env sh .sqa/script.tacky-linen-squid.sh
+        container: qc.met_stealthy-violet-javanese
 timeout: 600
