@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-chartreuse-coral.sh
-        container: qc.acc_tasty-malachite-shrimp
+        - /usr/bin/env sh .sqa/script.muzzy-bronze-chinchilla.sh
+        container: qc.acc_flimsy-cream-quoll
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-blue-slug.sh
-        container: qc.doc_flabby-linen-bonobo
+        - /usr/bin/env sh .sqa/script.chummy-zucchini-ibis.sh
+        container: qc.doc_gimpy-linen-quetzal
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-cream-macaw.sh
-        container: qc.doc_fuzzy-eggplant-catfish
+        - /usr/bin/env sh .sqa/script.geeky-emerald-discus.sh
+        container: qc.doc_pasty-goldenrod-dog
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-zucchini-dunker.sh
-        container: qc.lic_scanty-pumpkin-wrasse
+        - /usr/bin/env sh .sqa/script.stinky-ivory-angelfish.sh
+        container: qc.lic_greasy-scarlet-numbat
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-pumpkin-gecko.sh
-        container: qc.met_smelly-ivory-giraffe
+        - /usr/bin/env sh .sqa/script.freaky-rust-flounder.sh
+        container: qc.met_breezy-ivory-reindeer
 timeout: 600
