@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-beige-uakari.sh
-        container: qc.acc_grumpy-cardinal-mole
+        - /usr/bin/env sh .sqa/script.breezy-chartreuse-coral.sh
+        container: qc.acc_tasty-malachite-shrimp
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-white-toucan.sh
-        container: qc.doc_trippy-ivory-molly
+        - /usr/bin/env sh .sqa/script.grumpy-blue-slug.sh
+        container: qc.doc_flabby-linen-bonobo
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-seashell-tapir.sh
-        container: qc.doc_shaggy-smalt-capuchin
+        - /usr/bin/env sh .sqa/script.homey-cream-macaw.sh
+        container: qc.doc_fuzzy-eggplant-catfish
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-bistre-sponge.sh
-        container: qc.lic_gummy-crimson-dingo
+        - /usr/bin/env sh .sqa/script.skimpy-zucchini-dunker.sh
+        container: qc.lic_scanty-pumpkin-wrasse
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-teal-bongo.sh
-        container: qc.met_stinky-brass-ray
+        - /usr/bin/env sh .sqa/script.sleazy-pumpkin-gecko.sh
+        container: qc.met_smelly-ivory-giraffe
 timeout: 600
