@@ -7,34 +7,35 @@ config:
     github.com/ropensci/rdatacite:
       repo: https://github.com/ropensci/rdatacite.git
 environment:
-  JPL_KEEPGOING: true
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-denim-caterpillar.sh
-        container: qc.acc_sleazy-heliotrope-chamois
+        - /usr/bin/env sh .sqa/script.hazy-smalt-squid.sh
+        container: qc.acc_slaphappy-razzmatazz-deer
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-ruby-harrier.sh
-        container: qc.doc_hasty-lilac-cow
+        - /usr/bin/env sh .sqa/script.chewy-yellow-zonkey.sh
+        container: qc.doc_gloppy-green-lemur
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-flax-camel.sh
-        container: qc.doc_homey-razzmatazz-octopus
+        - /usr/bin/env sh .sqa/script.beady-olivine-guppy.sh
+        container: qc.doc_gloppy-bistre-zonkey
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-olive-avocet.sh
-        container: qc.lic_droopy-brown-kiwi
+        - /usr/bin/env sh .sqa/script.homely-amber-uguisu.sh
+        container: qc.lic_stuffy-blue-rhinoceros
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-linen-squid.sh
-        container: qc.met_stealthy-violet-javanese
+        - /usr/bin/env sh .sqa/script.craggy-sepia-magpie.sh
+        container: qc.met_slaphappy-indigo-civet
 timeout: 600
