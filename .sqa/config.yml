@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-bronze-chinchilla.sh
-        container: qc.acc_flimsy-cream-quoll
+        - /usr/bin/env sh .sqa/script.boozy-gold-frigatebird.sh
+        container: qc.acc_pretty-denim-mongrel
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-zucchini-ibis.sh
-        container: qc.doc_gimpy-linen-quetzal
+        - /usr/bin/env sh .sqa/script.skanky-carmine-wolfhound.sh
+        container: qc.doc_crappy-pear-stingray
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-emerald-discus.sh
-        container: qc.doc_pasty-goldenrod-dog
+        - /usr/bin/env sh .sqa/script.muzzy-alizarin-peccary.sh
+        container: qc.doc_hazy-lilac-greyhound
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-ivory-angelfish.sh
-        container: qc.lic_greasy-scarlet-numbat
+        - /usr/bin/env sh .sqa/script.pretty-saffron-albatross.sh
+        container: qc.lic_wiggy-khaki-deer
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-rust-flounder.sh
-        container: qc.met_breezy-ivory-reindeer
+        - /usr/bin/env sh .sqa/script.sleepy-crimson-tiger.sh
+        container: qc.met_gamy-cornflower-cuscus
 timeout: 600
