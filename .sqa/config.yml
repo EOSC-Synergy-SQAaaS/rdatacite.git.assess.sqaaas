@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-gold-frigatebird.sh
-        container: qc.acc_pretty-denim-mongrel
+        - /usr/bin/env sh .sqa/script.chummy-peach-tortoise.sh
+        container: qc.acc_frumpy-pear-barnacle
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-carmine-wolfhound.sh
-        container: qc.doc_crappy-pear-stingray
+        - /usr/bin/env sh .sqa/script.dorky-auburn-bandicoot.sh
+        container: qc.doc_randy-khaki-labradoodle
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-alizarin-peccary.sh
-        container: qc.doc_hazy-lilac-greyhound
+        - /usr/bin/env sh .sqa/script.shaggy-gold-bloodhound.sh
+        container: qc.doc_zippy-ivory-affenpinscher
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-saffron-albatross.sh
-        container: qc.lic_wiggy-khaki-deer
+        - /usr/bin/env sh .sqa/script.slimy-amaranth-alligator.sh
+        container: qc.lic_gamy-violet-fox
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-crimson-tiger.sh
-        container: qc.met_gamy-cornflower-cuscus
+        - /usr/bin/env sh .sqa/script.frumpy-razzmatazz-woodpecker.sh
+        container: qc.met_breezy-wisteria-chamois
 timeout: 600
