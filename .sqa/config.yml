@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-peach-tortoise.sh
-        container: qc.acc_frumpy-pear-barnacle
+        - /usr/bin/env sh .sqa/script.bumpy-asparagus-urchin.sh
+        container: qc.acc_jumpy-firebrick-tang
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-auburn-bandicoot.sh
-        container: qc.doc_randy-khaki-labradoodle
+        - /usr/bin/env sh .sqa/script.hasty-burgundy-olm.sh
+        container: qc.doc_blurry-maroon-moose
       github.com/ropensci/rdatacite__2:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-gold-bloodhound.sh
-        container: qc.doc_zippy-ivory-affenpinscher
+        - /usr/bin/env sh .sqa/script.woolly-persimmon-cuttlefish.sh
+        container: qc.doc_snazzy-cornflower-bullfrog
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-amaranth-alligator.sh
-        container: qc.lic_gamy-violet-fox
+        - /usr/bin/env sh .sqa/script.snoopy-myrtle-mole.sh
+        container: qc.lic_homely-lime-iguana
   QC.Met:
     repos:
       github.com/ropensci/rdatacite:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-razzmatazz-woodpecker.sh
-        container: qc.met_breezy-wisteria-chamois
+        - /usr/bin/env sh .sqa/script.zippy-gamboge-ocelot.sh
+        container: qc.met_silly-auburn-lionfish
 timeout: 600
