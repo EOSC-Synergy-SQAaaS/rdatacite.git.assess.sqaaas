@@ -12,30 +12,30 @@ environment:
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/ropensci/rdatacite:
+      github.com/ropensci/rdatacite git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-apricot-tapir.sh
-        container: qc.acc_randy-ivory-monster
+        - /usr/bin/env sh .sqa/script.homey-emerald-seal.sh
+        container: qc.acc_skimpy-magenta-wildebeest
   QC.Doc:
     repos:
-      github.com/ropensci/rdatacite:
+      github.com/ropensci/rdatacite find_readme.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-charcoal-heron.sh
-        container: qc.doc_trippy-buff-albatross
-      github.com/ropensci/rdatacite__2:
+        - /usr/bin/env sh .sqa/script.skinny-thistle-spoonbill.sh
+        container: qc.doc_snoopy-heliotrope-bird
+      github.com/ropensci/rdatacite markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-wisteria-saola.sh
-        container: qc.doc_greasy-saffron-oriole
+        - /usr/bin/env sh .sqa/script.shaggy-chocolate-bloodhound.sh
+        container: qc.doc_trippy-cream-fowl
   QC.Lic:
     repos:
-      github.com/ropensci/rdatacite:
+      github.com/ropensci/rdatacite licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-dandelion-penguin.sh
-        container: qc.lic_stinky-puce-bloodhound
+        - /usr/bin/env sh .sqa/script.wimpy-crimson-mongrel.sh
+        container: qc.lic_squirrely-white-ant
   QC.Met:
     repos:
-      github.com/ropensci/rdatacite:
+      github.com/ropensci/rdatacite validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-azure-discus.sh
-        container: qc.met_goopy-mustard-whippet
+        - /usr/bin/env sh .sqa/script.breezy-scarlet-zorse.sh
+        container: qc.met_sleazy-coral-wasp
 timeout: 600
