@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/ropensci/rdatacite git:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-platinum-jellyfish.sh
-        container: qc.acc_clammy-beige-rat
+        - /usr/bin/env sh .sqa/script.baggy-charcoal-duck.sh
+        container: qc.acc_hazy-plum-lemur
   QC.Doc:
     repos:
       github.com/ropensci/rdatacite find_readme.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-pear-grouse.sh
-        container: qc.doc_skinny-cyan-ocelot
+        - /usr/bin/env sh .sqa/script.crabby-white-affenpinscher.sh
+        container: qc.doc_ugly-beige-anteater
       github.com/ropensci/rdatacite markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-persimmon-ibis.sh
-        container: qc.doc_ugly-asparagus-manatee
+        - /usr/bin/env sh .sqa/script.muzzy-carmine-monster.sh
+        container: qc.doc_blurry-yellow-dog
   QC.Lic:
     repos:
       github.com/ropensci/rdatacite licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-myrtle-mayfly.sh
-        container: qc.lic_thirsty-viridian-paradise
+        - /usr/bin/env sh .sqa/script.gummy-tan-molly.sh
+        container: qc.lic_zippy-malachite-dog
   QC.Met:
     repos:
       github.com/ropensci/rdatacite validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-firebrick-badger.sh
-        container: qc.met_greasy-malachite-ostrich
+        - /usr/bin/env sh .sqa/script.zippy-magnolia-sloth.sh
+        container: qc.met_thirsty-apricot-mandrill
 timeout: 600
